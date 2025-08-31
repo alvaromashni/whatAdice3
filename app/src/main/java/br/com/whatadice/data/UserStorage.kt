@@ -64,14 +64,14 @@ class UserStorage(context: Context) {
 
     fun validateLogin(email: String, password: String): Boolean {
         val users = readUsers()
-        val user = users[email] ?: return false
+        val user = users[key(email)] ?: return false
         return user.password == password
     }
 
     fun debugDump() {
         val users = readUsers()
         Log.d(TAG, "Users salvos (${users.size}):")
-        users.forEach { (k, u) -> Log.d(TAG, " key=$k | displayEmail=${u.email}") }
+        users.forEach { (key, user) -> Log.d(TAG, " key=$key | displayEmail=${user.email}") }
     }
 
     fun clearAll() {
