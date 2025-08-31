@@ -1,6 +1,6 @@
 # whatAdice — Desafio técnico (Android/Kotlin)
 
-Este repositório contém um app Android que atende ao desafio técnico com **Splash**, **Login**, **Cadastro** e **Home**, seguindo um design consistente (Material 3) com modificações próprias, validações básicas e **persistência local** simples.
+Desafio técnico com **Splash**, **Login**, **Cadastro** e **Home**, seguindo o Material design 3 com modificações próprias, validações básicas e **persistência local** simples.
 
 ---
 
