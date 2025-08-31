@@ -6,7 +6,6 @@
         <item name="strokeWidth">2dp</item>
         <item name="cardBackgroundColor">@android:color/white</item>
         <item name="cardCornerRadius">20dp</item>
-        <!--        <item name="android:useCompatPadding">true</item>-->
     </style>
 
     <style name="PrimaryPillButton" parent="Widget.Material3.Button">
